@@ -1,0 +1,86 @@
+:root {
+    --color_01: #8168c5;
+    --color_02: #000000;
+    --c_white: #ffffff;
+    --c_gray: #f1f1f1;
+}
+
+body {
+    background-image: url("../img/bk_ariana.jpeg");
+    background-position: center;
+    background-size: cover;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+table {
+    background-color: var(--c_white);
+    margin: auto;
+    width: 600px;
+}
+
+#nav_box {
+    background-color: var(--c_gray);
+    border-top: 8px solid var(--color_01);
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+
+#nav_box ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center; /* Centrar el texto */
+}
+
+#nav_box li {
+    display: inline; /* Mostrar elementos de la lista en línea */
+}
+
+#nav_box a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ativo {
+    background-color: var(--color_01);
+    color: var(--c_white);
+}
+
+#nav_box a:hover:not(.ativo) {
+    background-color: var(--color_02);
+    color: var(--c_white);
+    transition: 0.4s;
+}
+
+#image_box {
+    width: 450px;
+}
+
+#image_box img {
+    width: 100%;
+}
+
+.article_box {
+    padding: 10px;
+}
+
+.article_box p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.article_box h2 {
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    padding: 10px;
+}
+
+#footer_box {
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    text-align: center;
+    height: 50px;
+}
