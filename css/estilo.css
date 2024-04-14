@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../img/bk_ariana.jpeg");
+    background-image: url("../img/fosco.jpg");
     background-position: center;
     background-size: cover;
     font-family: "Dancing Script", cursive;
@@ -57,10 +57,12 @@ table {
 
 #image_box {
     width: 450px;
+   
 }
 
 #image_box img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .article_box {
@@ -69,7 +71,7 @@ table {
 
 .article_box p {
     font-size: 18px;
-    text-align: justify;
+   
 }
 
 .article_box h2 {
